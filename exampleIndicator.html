@@ -1,31 +1,54 @@
 <html>
   <head>
     <title>Example Indicator Scorecard</title>
+    <style>
+      body {
+        background-color: #006F91; 
+        font-family: Helvetica, sans-serif;
+        font-size: 14px;
+      }
+
+      h3 {
+        font-family: Georgia, serif; 
+        font-size: 20px;
+      }
+
+      h4 {
+        color: #0F4363;
+        font-size: 14px;
+      }
+
+      .value {
+        color: #CA4F00; 
+        font-size: 30px;
+      }
+    </style>
   </head>
-  <body style='background-color: #006F91; font-family: Helvetica, sans-serif;'>
 
   <table style="padding: 15px; width: 100%;">
-  <tr><td width = "33%" style="padding: 15px;">
+  <tr>
+    <td width = "33%" style="padding: 15px;">
     <div style="background-color: #ffffff; color: #000000; padding: 10px; padding-top: 5px;">
-      <h3 style="font-family: Georgia, serif; font-size: 20px;">
-      Example Indicator
-      </h3>
-      In 2022 (baseline year), 15 Californians experienced condition monitored by Example Indicator. 
-      The most recent data available show 15. We hope to reach a target of 9 by 2032.</div>
-  </td>
-  <td width = "22%" valign="top" style="padding: 15px;">
-    <div style="background-color: #FFFFFF;  padding: 10px; text-align: center;"><br /><h4 style="font-size: 14px; color: #0F4363;">Baseline</h4><span style="color: #CA4F00; font-size: 30px;">
-      15</span><br /><br /></div>
-  </td>
-  <td width = "22%" valign="top" style="padding: 15px;">
+      <h3>Example Indicator</h3>
+      In 2022 (baseline year), 15 Californians experienced condition monitored by Example Indicator. The most recent data available show 15. We hope to reach a target of 9 by 2032.</div>
+    </td>
+    <td width = "22%" valign="top" style="padding: 15px;">
+    <div style="background-color: #FFFFFF;  padding: 10px; text-align: center;"><br />
+      <h4>Baseline</h4>
+      <span class='value'>15</span><br /><br /></div>
+    </td>
+    <td width = "22%" valign="top" style="padding: 15px;">
     <div style="background-color: #FFFFFF; padding: 10px; padding-top: 5px; text-align: center;">
       <div style="width: 25px; height: 25px; border-radius: 50%; margin:auto; float: top; background-color: #FF0000; color: #FFFFFF; font-weight:900; text-align:center; padding: 1px;" title = "The value of this indicator is higher than the target.">
-        <span style="display: inline-block; transform: rotate(-90deg); padding-left: 0px;">&#10148;</span></div>
-      <h4 style="font-size: 14px; color: #0F4363;">Current Rate</h4><span style="color: CA4F00; font-size: 30px;">
-        15</span><br /><br /></div>
-  </td>
+        <span style="display: inline-block; transform: rotate(-90deg); padding-left: 0px;">&#10148;</span>
+      </div>
+      <h4>Current Rate</h4><span class='value'>15</span>
+      <br /><br /></div>
+    </td>
     <td width = "22%" valign="top" style="padding: 15px;"><div style="background-color: #FFFFFF;  padding: 10px; text-align: center;"><br />
-      <h4 style="font-size: 14px; color: #0F4363;">Target</h4><span style="color: #CA4F00; font-size: 30px;">9</span><br /><br /></div></td>
+      <h4>Target</h4>
+      <span class='value'>9</span><br /><br /></div>
+    </td>
   </table>
   </body>
 </html>
